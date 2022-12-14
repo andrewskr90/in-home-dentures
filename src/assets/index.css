@@ -1,0 +1,10 @@
+html body {
+    margin: 0;
+}
+
+section {
+    border: solid 4px white;
+    background-color: aliceblue;
+    height: 400px;
+    margin-top: 80px;
+}
