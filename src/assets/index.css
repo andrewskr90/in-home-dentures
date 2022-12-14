@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap');
+
+/* global variables */
+:root {
+    /* colors */
+    --darkBlue: rgb(47, 85, 131);
+    --yellow: #e8d394
+}
+
 html body {
     margin: 0;
+}
+h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
 }
 
 section {
@@ -7,4 +20,14 @@ section {
     background-color: aliceblue;
     height: 400px;
     margin-top: 80px;
+}
+
+.button--request-appointment {
+    border-radius: 5px;
+    /* border: none; */
+    /* box-shadow: 4px 4px 10px 1px #36454f; */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--yellow);
 }

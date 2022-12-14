@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--darkBlue);
+}
+.title {
+    width: 20%;
+    color: white;
+    text-decoration: none;
+}
+.navigation {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation__link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
+.hamburgerMenu img {
+    width: 2vw;
+    cursor: pointer;
+}
