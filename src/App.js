@@ -1,38 +1,18 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/header'
+import Home from './pages/home'
+import Footer from './components/footer'
 
 const App = () => {
+
     return (
         <div className='app'>
-            <header className='navBar'>
-                <h2 className='title'>In Home Dentures</h2>
-                <nav className='navigation'>
-                    <a>One</a>
-                    <a>Two</a>
-                    <a>Three</a>
-                    <a>Four</a>
-                </nav>
-            </header>
-            <body>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
-
-            </body>
+            <Header />
+            <Routes>
+                <Route path='/' element={<Home />} />
+            </Routes>
+            <Footer />
         </div>
     )
 }
